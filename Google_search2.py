@@ -13,7 +13,7 @@ load_dotenv()
 # Initialize the GPT4All LLM with streaming
 callback_manager = BaseCallbackManager([StreamingStdOutCallbackHandler()])
 llm = GPT4All(
-    model="E:\\LLM course\\models\\Meta-Llama-3-8B-Instruct.Q4_0.gguf",
+    model="E:\\LLM\\models\\Meta-Llama-3-8B-Instruct.Q4_0.gguf",
     callbacks=callback_manager,
     verbose=True
 )
