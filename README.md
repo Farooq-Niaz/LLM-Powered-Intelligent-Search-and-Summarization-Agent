@@ -1,23 +1,23 @@
-**1)Install the required Libraries**
-# pip install langchain==0.1.17
-# pip install langchain-Community
-# pip install gpt4all
-# pip install langchain-google-community
-# pip install google-api-python-client
-# pip install python-dotenv
-# pip install pydantic==2.11.1
-# pip install sentencepiece
-# pip install -q langchain==0.0.152
-# pip install pyllamacpp==1.0.7
+# 1)Install the required Libraries**
+## pip install langchain==0.1.17
+## pip install langchain-Community
+## pip install gpt4all
+## pip install langchain-google-community
+## pip install google-api-python-client
+## pip install python-dotenv
+## pip install pydantic==2.11.1
+## pip install sentencepiece
+## pip install -q langchain==0.0.152
+## pip install pyllamacpp==1.0.7
 
 
-**2 )Make .env file and Add required API's**
-# for example:
-# GOOGLE_CSE_ID = "Add you CSE_Id her"
-# GOOGLE_API_KEY ="Add your google api here"
+# 2 )Make .env file and Add required API's
+## for example:
+## GOOGLE_CSE_ID = "Add you CSE_Id her"
+## GOOGLE_API_KEY ="Add your google api here"
 
 
-**3)Download Meta-Llama-3-8B-Instruct.Q4_0.gguf and Place in model folder**
+# 3)Download Meta-Llama-3-8B-Instruct.Q4_0.gguf and Place in model folder
 
 **Meta-Llama-3**
 Meta → developed by Meta (formerly Facebook).
